@@ -857,6 +857,7 @@ article .icon{
 }
 
 .project-img{
+    margin-top: 2em;
     border-radius: 2rem;
     width: 90%;
     height: 90%;
