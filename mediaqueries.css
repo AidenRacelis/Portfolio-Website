@@ -49,6 +49,11 @@
         margin: 0 auto 2rem;
     }
 
+    #profile .section__pic-container {
+        width: 450px;
+        height: 450px;
+    }
+
     .about-containers {
         margin-top: 0;
     }
@@ -108,6 +113,11 @@
         width: auto;
         height: 46vw;
         justify-content: center;
+    }
+
+    #profile .section__pic-container {
+        height: 58vw;
+        max-height: 450px;
     }
 
     .section__text__p2 {
