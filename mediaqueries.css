@@ -49,6 +49,11 @@
         margin: 0 auto 2rem;
     }
 
+    .profile-pic-frame {
+        width: 300px;
+        height: 360px;
+    }
+
     .about-containers {
         margin-top: 0;
     }
@@ -108,6 +113,11 @@
         width: auto;
         height: 46vw;
         justify-content: center;
+    }
+
+    .profile-pic-frame {
+        width: min(78vw, 260px);
+        height: min(94vw, 320px);
     }
 
     .section__text__p2 {
