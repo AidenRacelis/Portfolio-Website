@@ -1,2 +1,4 @@
-# html-css-js-portfolio
- Making portfolio website with HTML, JavaScript, & CSS
+# Portfolio Website of Aiden Racelis
+
+Freely hosted portfolio HTML CSS Website through GitHub to talk about myself!
+
