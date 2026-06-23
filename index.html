@@ -14,6 +14,7 @@
             <div>
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
+                    <li><a href="#involvement">Involvement</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -106,6 +107,186 @@
                     </div>
                 </div>
             </div>
+            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#involvement'">
+        </section>
+        <section id="involvement">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">College Involvement</h1>
+            <div class="involvement-grid">
+                <button class="involvement-card" type="button" data-involvement="fiserv">
+                    <div class="involvement-card__logo-wrap">
+                        <img src="./assets/fiserv/logo.png" alt="Fiserv logo" class="involvement-card__logo">
+                    </div>
+                    <span class="involvement-card__eyebrow">Professional Internship Experience</span>
+                    <h2>Fiserv Inc.</h2>
+                    <h3>Performance Engineering Software Quality Assurance Intern</h3>
+                    <!-- new lines for the dates -->
+                    <h4><br>June 2025 - August 2025</h4>
+                    <h4><br>Currently for Summer 2026</h4>
+                </button>
+                <button class="involvement-card" type="button" data-involvement="sec">
+                    <div class="involvement-card__logo-wrap">
+                        <img src="./assets/sec/logo.png" alt="SEC logo" class="involvement-card__logo">
+                    </div>
+                    <span class="involvement-card__eyebrow">Student Leadership</span>
+                    <h2>Student Engineering Council</h2>
+                    <h3>Engineer's Week Executive Board Member</h3>
+                    <!-- new lines for the dates -->
+                    <h4><br>September 2024 - June 2026</h4>
+                </button>
+                <button class="involvement-card" type="button" data-involvement="hevt">
+                    <div class="involvement-card__logo-wrap">
+                        <img src="./assets/hevt/hevt_logo.jpg" alt="HEVT logo" class="involvement-card__logo">
+                    </div>
+                    <span class="involvement-card__eyebrow">Engineering Design Team</span>
+                    <h2>Hybrid Electric Vehicle Team</h2>
+                    <h3>Sensor Fusion Sub-team Member</h3>
+                    <h3><br>Currently Connected and Automated Vehicle Sub-team Lead</h3>
+                    <!-- new lines for the dates -->
+                    <h4><br>September 2024 - Present</h4>
+                </button>
+                <button class="involvement-card" type="button" data-involvement="superdarn">
+                    <div class="involvement-card__logo-wrap">
+                        <img src="./assets/superdarn/logo.png" alt="SuperDARN logo" class="involvement-card__logo">
+                    </div>
+                    <span class="involvement-card__eyebrow">Research Part-Time</span>
+                    <h2>VT SuperDARN</h2>
+                    <h3>Web Developer Intern</h3>
+                    <!-- new lines for the dates -->
+                    <h4><br>March 2026 - June 2026</h4>
+                </button>
+            </div>
+
+            <div class="involvement-detail" data-involvement="fiserv" data-title="Fiserv Inc" hidden>
+                <div class="involvement-panel-content" data-panel="overview">
+                    <p>
+                        Add a short summary here about your work at Fiserv, the team you worked with,
+                        and the technical skills you developed during the experience.
+                    </p>
+                    <p>
+                        This is a good place to mention projects, collaboration, and measurable impact
+                        so visitors can quickly understand what you contributed.
+                    </p>
+                </div>
+                <div class="involvement-panel-content" data-panel="gallery">
+                    <div class="involvement-gallery">
+                        <div class="gallery-placeholder">
+                            <span>Photo 1</span>
+                            <p>Add a Fiserv team or office photo here.</p>
+                        </div>
+                        <div class="gallery-placeholder">
+                            <span>Photo 2</span>
+                            <p>Use this space for a project, event, or presentation image.</p>
+                        </div>
+                        <div class="gallery-placeholder">
+                            <span>Photo 3</span>
+                            <p>Showcase another moment that reflects your experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="involvement-detail" data-involvement="sec" data-title="Student Engineering Council" hidden>
+                <div class="involvement-panel-content" data-panel="overview">
+                    <p>
+                        As an E-Board Committee Member for the Student Engineering Council at Virginia Tech,
+                        you help plan game nights, social events, and large-scale programming for the engineering community.
+                    </p>
+                    <p>
+                        This section can highlight your leadership, event coordination, and involvement with
+                        the Virginia Tech Engineering Expo and other student-facing initiatives.
+                    </p>
+                </div>
+                <div class="involvement-panel-content" data-panel="gallery">
+                    <div class="involvement-gallery">
+                        <div class="gallery-placeholder">
+                            <span>Photo 1</span>
+                            <p>Add an Engineering Expo or council event photo here.</p>
+                        </div>
+                        <div class="gallery-placeholder">
+                            <span>Photo 2</span>
+                            <p>Use this tile for a social event, meeting, or team picture.</p>
+                        </div>
+                        <div class="gallery-placeholder">
+                            <span>Photo 3</span>
+                            <p>Highlight another event that shows your campus involvement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="involvement-detail" data-involvement="hevt" data-title="Hybrid Electric Vehicle Team" hidden>
+                <div class="involvement-panel-content" data-panel="overview">
+                    <p>
+                        You are part of the General Motors sponsored Hokie Electric Vehicle Team,
+                        working on the Sensor Fusion sub-team for the 2024 Cadillac Lyriq.
+                    </p>
+                    <p>
+                        Use this space to describe the technical systems you worked on, how your team collaborates,
+                        and what you learned through hands-on vehicle development.
+                    </p>
+                </div>
+                <div class="involvement-panel-content" data-panel="gallery">
+                    <div class="involvement-gallery">
+                        <div class="gallery-placeholder">
+                            <span>Photo 1</span>
+                            <p>Add a vehicle build or team lab photo here.</p>
+                        </div>
+                        <div class="gallery-placeholder">
+                            <span>Photo 2</span>
+                            <p>Show a systems test, workshop moment, or competition image.</p>
+                        </div>
+                        <div class="gallery-placeholder">
+                            <span>Photo 3</span>
+                            <p>Use another image that captures your engineering work.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="involvement-detail" data-involvement="superdarn" data-title="VT SuperDARN" hidden>
+                <div class="involvement-panel-content" data-panel="overview">
+                    <p>
+                        Add your VT SuperDARN description here with the main responsibilities, tools,
+                        and technical or research contributions you want recruiters to notice.
+                    </p>
+                    <p>
+                        You can also mention what the project or lab focuses on and how your role helped
+                        support the team or broader mission.
+                    </p>
+                </div>
+                <div class="involvement-panel-content" data-panel="gallery">
+                    <div class="involvement-gallery">
+                        <div class="gallery-placeholder">
+                            <span>Photo 1</span>
+                            <p>Add a lab, equipment, or fieldwork image here.</p>
+                        </div>
+                        <div class="gallery-placeholder">
+                            <span>Photo 2</span>
+                            <p>Use this slot for a research setup or team photo.</p>
+                        </div>
+                        <div class="gallery-placeholder">
+                            <span>Photo 3</span>
+                            <p>Include another image that shows your time with VT SuperDARN.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="involvement-modal" id="involvement-modal" aria-hidden="true">
+                <div class="involvement-modal__backdrop" data-close-modal></div>
+                <div class="involvement-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="involvement-modal-title">
+                    <button class="involvement-modal__close" type="button" aria-label="Close involvement details" data-close-modal>&times;</button>
+                    <p class="section__text__p1">More Details</p>
+                    <h2 class="experience-sub-title involvement-modal__title" id="involvement-modal-title">College Involvement</h2>
+                    <div class="involvement-modal__tabs" role="tablist" aria-label="Involvement detail tabs">
+                        <button class="involvement-tab is-active" type="button" data-panel="overview">Overview</button>
+                        <button class="involvement-tab" type="button" data-panel="gallery">Gallery</button>
+                    </div>
+                    <div class="involvement-modal__body" id="involvement-modal-body"></div>
+                </div>
+            </div>
+
             <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
         </section>
         <section id="experience">

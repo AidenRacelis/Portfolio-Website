@@ -953,3 +953,175 @@ footer p{
     object-fit: cover;
     border-radius: 2rem;
 }
+
+/* INVOLVEMENT SECTION */
+
+#involvement{
+    position: relative;
+}
+
+.involvement-grid{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+.involvement-card{
+    border: 0.1rem solid rgb(163,163,163);
+    border-radius: 2rem;
+    background: white;
+    padding: 1.75rem 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.06);
+    min-height: 250px;
+}
+
+.involvement-card:hover{
+    transform: translateY(-6px);
+    border-color: rgb(53,53,53);
+    box-shadow: 0 1.25rem 2.5rem rgba(0, 0, 0, 0.12);
+}
+
+.involvement-card__logo-wrap{
+    width: 100%;
+    min-height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.involvement-card__logo{
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+    border-radius: 50%;
+    margin: 0;
+    display: block;
+}
+
+.involvement-card__eyebrow{
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.08rem;
+    text-transform: uppercase;
+    color: rgb(85,85,85);
+}
+
+.involvement-card h2{
+    font-size: 1.4rem;
+    margin-bottom: 0.75rem;
+}
+
+.involvement-card p{
+    line-height: 1.6;
+}
+
+.involvement-modal{
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    z-index: 20;
+}
+
+.involvement-modal.open{
+    display: flex;
+}
+
+.involvement-modal__backdrop{
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.involvement-modal__dialog{
+    position: relative;
+    width: min(900px, 100%);
+    max-height: 85vh;
+    overflow-y: auto;
+    background: rgb(255,255,249);
+    border-radius: 2rem;
+    padding: 2.25rem;
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.18);
+}
+
+.involvement-modal__close{
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+    border: none;
+    background: transparent;
+    font-size: 2rem;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.involvement-modal__title{
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.involvement-modal__tabs{
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.involvement-tab{
+    border: 0.1rem solid rgb(163,163,163);
+    border-radius: 999px;
+    background: white;
+    padding: 0.75rem 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.involvement-tab.is-active{
+    background: rgb(53,53,53);
+    border-color: rgb(53,53,53);
+    color: white;
+}
+
+.involvement-modal__body{
+    color: rgb(80, 85, 85);
+}
+
+.involvement-modal__body p + p{
+    margin-top: 1rem;
+}
+
+.involvement-gallery{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.gallery-placeholder{
+    min-height: 220px;
+    border-radius: 1.5rem;
+    border: 0.1rem dashed rgb(163,163,163);
+    background: linear-gradient(135deg, rgb(244,244,240), rgb(255,255,255));
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.gallery-placeholder span{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+body.modal-open{
+    overflow: hidden;
+}

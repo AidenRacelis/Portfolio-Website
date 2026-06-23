@@ -57,6 +57,10 @@
     .about-containers {
         margin-top: 0;
     }
+
+    .involvement-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
 
 /* Styles for screens less than or equal to 600px */
@@ -130,5 +134,18 @@
 
     .text-container {
         text-align: justify;
+    }
+
+    .involvement-grid,
+    .involvement-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .involvement-modal {
+        padding: 1rem;
+    }
+
+    .involvement-modal__dialog {
+        padding: 1.5rem;
     }
 }
