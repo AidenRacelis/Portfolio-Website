@@ -57,6 +57,11 @@
     .about-containers {
         margin-top: 0;
     }
+
+    #about .section__pic-container.about-gallery {
+        width: min(72vw, 340px);
+        height: min(92vw, 440px);
+    }
 }
 
 /* Styles for screens less than or equal to 600px */
@@ -118,6 +123,11 @@
     .profile-pic-frame {
         width: min(78vw, 260px);
         height: min(94vw, 320px);
+    }
+
+    #about .section__pic-container.about-gallery {
+        width: min(82vw, 320px);
+        height: min(108vw, 420px);
     }
 
     .section__text__p2 {
